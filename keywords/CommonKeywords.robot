@@ -19,4 +19,3 @@ Open Chrome Browser
     ${options}=    Evaluate    sys.moduls['selenium.webdriver'].chromeOptions()    sys
     Call Method    ${options}    add_argument    --start-maximized
     Open Browse    ${baseUrl}    chrome    option=${options}
-        
